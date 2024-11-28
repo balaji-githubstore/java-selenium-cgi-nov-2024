@@ -2,32 +2,66 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T17:49:48 IST" name="Default suite" finished-at="2024-11-27T17:50:03 IST" duration-ms="15012">
+  <suite started-at="2024-11-28T16:24:11 IST" name="Default suite" finished-at="2024-11-28T16:25:19 IST" duration-ms="68165">
     <groups>
     </groups>
-    <test started-at="2024-11-27T17:49:48 IST" name="Default test" finished-at="2024-11-27T17:50:03 IST" duration-ms="15012">
+    <test started-at="2024-11-28T16:24:11 IST" name="Default test" finished-at="2024-11-28T16:25:19 IST" duration-ms="68165">
       <class name="com.cgi.test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:49:48 IST" name="setup" finished-at="2024-11-27T17:49:53 IST" duration-ms="5088" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:24:23 IST" name="setup" finished-at="2024-11-28T16:24:33 IST" duration-ms="10279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:49:53 IST" name="invalidLoginTest" finished-at="2024-11-27T17:49:56 IST" duration-ms="2495" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:24:33 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2024-11-28T16:25:04 IST" duration-ms="30165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saul123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:49:56 IST" name="teardown" finished-at="2024-11-27T17:49:56 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:25:04 IST" name="teardown" finished-at="2024-11-28T16:25:05 IST" duration-ms="1914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:49:56 IST" name="setup" finished-at="2024-11-27T17:50:01 IST" duration-ms="4648" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:25:05 IST" name="setup" finished-at="2024-11-28T16:25:11 IST" duration-ms="5820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:50:01 IST" name="validLoginTest" finished-at="2024-11-27T17:50:03 IST" duration-ms="2258" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:25:11 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2024-11-28T16:25:17 IST" duration-ms="5417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kim123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@12aba8be]" started-at="2024-11-27T17:50:03 IST" name="teardown" finished-at="2024-11-27T17:50:03 IST" duration-ms="195" status="PASS">
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@13fd2ccd]" started-at="2024-11-28T16:25:17 IST" name="teardown" finished-at="2024-11-28T16:25:19 IST" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
