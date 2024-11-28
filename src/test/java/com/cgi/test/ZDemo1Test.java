@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 public class ZDemo1Test {
 	@DataProvider
 	public Object[][] loginData() {
+		
+		
 		Object[][] data = new Object[3][2];
 		// i--> number of test cases
 		// j--> number of arguments

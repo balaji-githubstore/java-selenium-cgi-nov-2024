@@ -1,5 +1,8 @@
 package com.cgi.utilities;
 
+import java.io.IOException;
+import java.lang.reflect.Method;
+
 import org.testng.annotations.DataProvider;
 /**
  * All dataproviders required for the project kept here.
@@ -18,6 +21,16 @@ public class DataUtils {
 		data[1][1] = "kim123";
 		data[1][2] = "Invalid credentials";
 
+		return data;
+	}
+	
+	
+	@DataProvider
+	public Object[][] commonDataProvider(Method mtd) throws IOException
+	{
+		//@Test method name is the sheetname
+		String sheetName=mtd.getName();
+		Object[][] data= ExcelUtils.getSheetIntoTwoDimensionalArray("src/test/resources/orange_data.xlsx", sheetName);
 		return data;
 	}
 

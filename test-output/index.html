@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Balaji_Dinakaran\AppData\Local\Temp\testng-eclipse-883634939\testng-customsuite.xml</span>
+                    <span>C:\Users\Balaji_Dinakaran\AppData\Local\Temp\testng-eclipse--1234301608\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.cgi.test.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(kim, kim123, Invalid credentials)">invalidLoginTest(kim, kim123, Invalid credentials)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.cgi.test.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(saul, saul123, Invalid credentials)">invalidLoginTest(saul, saul123, Invalid credentials)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.cgi.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(Admin, admin123, Quick Launch)">validLoginTest(Admin, admin123, Quick Launch)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,18 +126,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidLoginTest(kim, kim123, Invalid credentials)">
-                  </a> <!-- invalidLoginTest(kim, kim123, Invalid credentials) -->
-                  <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(kim,kim123,Invalid credentials)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidLoginTest(saul, saul123, Invalid credentials)">
-                  </a> <!-- invalidLoginTest(saul, saul123, Invalid credentials) -->
-                  <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(saul,saul123,Invalid credentials)</span>
+                  <a name="validLoginTest(Admin, admin123, Quick Launch)">
+                  </a> <!-- validLoginTest(Admin, admin123, Quick Launch) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(Admin,admin123,Quick Launch)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Balaji_Dinakaran\AppData\Local\Temp\testng-eclipse-883634939\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Balaji_Dinakaran\AppData\Local\Temp\testng-eclipse--1234301608\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -161,7 +148,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.cgi.test.LoginTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;invalidLoginTest&quot;/&gt;
+          &lt;include name=&quot;validLoginTest&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.cgi.test.LoginTest --&gt;
     &lt;/classes&gt;
@@ -203,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidLoginTest')
+data.setCell(0, 1, 'validLoginTest')
 data.setCell(0, 2, 'com.cgi.test.LoginTest')
-data.setCell(0, 3, 30165);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalidLoginTest')
-data.setCell(1, 2, 'com.cgi.test.LoginTest')
-data.setCell(1, 3, 5417);
+data.setCell(0, 3, 5847);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,7 +220,7 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.cgi.test.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validLoginTest</span>
+                <span class="ignored-method-name">invalidLoginTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -255,24 +238,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">invalidLoginTest(saul, saul123, Invalid credentials)</span>
-                <span class="method-start">10280 ms</span>
+                <span class="method-name">validLoginTest(Admin, admin123, Quick Launch)</span>
+                <span class="method-start">5639 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">40448 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">42363 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(kim, kim123, Invalid credentials)</span>
-                <span class="method-start">48184 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">53603 ms</span>
+                <span class="method-start">11489 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
