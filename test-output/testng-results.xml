@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-28T17:47:10 IST" name="Default suite" finished-at="2024-11-28T17:47:49 IST" duration-ms="38970">
+  <suite started-at="2024-11-29T14:27:58 IST" name="Orange HRM Suite" finished-at="2024-11-29T14:28:09 IST" duration-ms="11169">
     <groups>
+      <group name="ui">
+        <method signature="LoginUITest.titleTest()[pri:0, instance:com.cgi.test.LoginUITest@272113c4]" name="titleTest" class="com.cgi.test.LoginUITest"/>
+      </group> <!-- ui -->
+      <group name="smoke">
+        <method signature="LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@55a147cc]" name="validLoginTest" class="com.cgi.test.LoginTest"/>
+        <method signature="LoginUITest.titleTest()[pri:0, instance:com.cgi.test.LoginUITest@272113c4]" name="titleTest" class="com.cgi.test.LoginUITest"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@55a147cc]" name="validLoginTest" class="com.cgi.test.LoginTest"/>
+      </group> <!-- login -->
     </groups>
-    <test started-at="2024-11-28T17:47:10 IST" name="Default test" finished-at="2024-11-28T17:47:49 IST" duration-ms="38970">
+    <test started-at="2024-11-29T14:27:58 IST" name="Login UI Test Chrome" finished-at="2024-11-29T14:28:09 IST" duration-ms="11169">
       <class name="com.cgi.test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.cgi.test.LoginTest@4efac082]" started-at="2024-11-28T17:47:36 IST" name="setup" finished-at="2024-11-28T17:47:41 IST" duration-ms="5638" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@55a147cc]" started-at="2024-11-29T14:28:04 IST" name="setup" finished-at="2024-11-29T14:28:07 IST" duration-ms="3634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@4efac082]" started-at="2024-11-28T17:47:41 IST" name="validLoginTest" data-provider="commonDataProvider" finished-at="2024-11-28T17:47:47 IST" duration-ms="5847" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cgi.test.LoginTest@55a147cc]" started-at="2024-11-29T14:28:07 IST" name="validLoginTest" data-provider="commonDataProvider" finished-at="2024-11-29T14:28:09 IST" duration-ms="1815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,11 +49,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@4efac082]" started-at="2024-11-28T17:47:47 IST" name="teardown" finished-at="2024-11-28T17:47:49 IST" duration-ms="1209" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginTest@55a147cc]" started-at="2024-11-29T14:28:09 IST" name="teardown" finished-at="2024-11-29T14:28:09 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.cgi.test.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.cgi.test.LoginUITest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cgi.test.LoginUITest@272113c4]" started-at="2024-11-29T14:27:58 IST" name="setup" finished-at="2024-11-29T14:28:03 IST" duration-ms="4571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:0, instance:com.cgi.test.LoginUITest@272113c4]" started-at="2024-11-29T14:28:03 IST" name="titleTest" finished-at="2024-11-29T14:28:03 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cgi.test.LoginUITest@272113c4]" started-at="2024-11-29T14:28:03 IST" name="teardown" finished-at="2024-11-29T14:28:03 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cgi.test.LoginUITest -->
+    </test> <!-- Login UI Test Chrome -->
+  </suite> <!-- Orange HRM Suite -->
 </testng-results>
